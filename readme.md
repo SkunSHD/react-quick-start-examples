@@ -1,8 +1,12 @@
-<h1>React-Flux_Todo-list</h1>
+<h1>Official React QUICK START guide</h1>
 
-В приложении используются следующие технологии:
-* React
-* Flux
-* ES7/6
-* Webpack
-* Babel
+* Rendering Elements
+* Components and Props
+* State and Lifecycle
+* Handling Events
+* Conditional Rendering
+* Lists and Keys
+* Forms
+* Lifting State Up
+* Composition vs Inheritance
+* Thinking In React
