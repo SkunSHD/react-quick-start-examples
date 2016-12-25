@@ -29,7 +29,6 @@ export default class LoginControl extends React.Component {
       button = <LogoutButton onClick={this.handleLogoutClick} />;
     } else {
       button = <LoginButton onClick={this.handleLoginClick} />;
-      console.log(Greetings)
     }
 
     return (
