@@ -9,6 +9,8 @@ import CoolForm from './CoolForm'
 import SelectFlavor from './SelectFlavor'
 import UncontrolledForm from './UncontrolledForm'
 import Calculator from './Calculator'
+import WelcomeDialog from './WelcomeDialog'
+import multipleHoles from './multipleHoles'
 
 export default class Layout extends React.Component {
 
@@ -16,27 +18,37 @@ export default class Layout extends React.Component {
     return(
        <div>
         <Clock />
+
+        <h2>Lifting State Up</h2>
+        <hr />
+        <Calculator />
+
+        <h2>Composition vs Inheritance</h2>
+        <hr />
+        <WelcomeDialog />
+        <multipleHoles />
+
         <h2>LoginControl</h2>
         <hr />
-
-        <Calculator />
-        <hr />
-
         <LoginControl />
+
         <h2>Controlled component</h2>
         <hr />
-
         <CoolForm />
+
         <h2>Uncontrolled component</h2>
         <hr />
-
         <UncontrolledForm />
-        <hr />
 
+        <h2>Select/option tag</h2>
+        <hr />
         <SelectFlavor />
-        <hr />
 
+        <h2>prevState in work</h2>
+        <hr />
         <Toggle />
+
+        <h2>Map filling, right using of keys</h2>
         <hr />
         <Blog posts={posts} />
       </div>
