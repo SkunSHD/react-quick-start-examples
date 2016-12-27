@@ -17,16 +17,20 @@ export default class Layout extends React.Component {
   render() {
     return(
        <div>
+        <h2>Composition vs Inheritance</h2>
+        <hr />
+        <WelcomeDialog />
+        <multipleHoles />
+
+        <h2>State and Lifecycle</h2>
+        <hr />
         <Clock />
 
         <h2>Lifting State Up</h2>
         <hr />
         <Calculator />
 
-        <h2>Composition vs Inheritance</h2>
-        <hr />
-        <WelcomeDialog />
-        <multipleHoles />
+
 
         <h2>LoginControl</h2>
         <hr />

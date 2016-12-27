@@ -21509,14 +21509,6 @@
 	                        return _react2.default.createElement(
 	                                'div',
 	                                null,
-	                                _react2.default.createElement(_Clock2.default, null),
-	                                _react2.default.createElement(
-	                                        'h2',
-	                                        null,
-	                                        'Lifting State Up'
-	                                ),
-	                                _react2.default.createElement('hr', null),
-	                                _react2.default.createElement(_Calculator2.default, null),
 	                                _react2.default.createElement(
 	                                        'h2',
 	                                        null,
@@ -21525,6 +21517,20 @@
 	                                _react2.default.createElement('hr', null),
 	                                _react2.default.createElement(_WelcomeDialog2.default, null),
 	                                _react2.default.createElement('multipleHoles', null),
+	                                _react2.default.createElement(
+	                                        'h2',
+	                                        null,
+	                                        'State and Lifecycle'
+	                                ),
+	                                _react2.default.createElement('hr', null),
+	                                _react2.default.createElement(_Clock2.default, null),
+	                                _react2.default.createElement(
+	                                        'h2',
+	                                        null,
+	                                        'Lifting State Up'
+	                                ),
+	                                _react2.default.createElement('hr', null),
+	                                _react2.default.createElement(_Calculator2.default, null),
 	                                _react2.default.createElement(
 	                                        'h2',
 	                                        null,
