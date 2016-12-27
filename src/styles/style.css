@@ -24,7 +24,8 @@ html, body, #root {
 
 .SplitPane {
   width: 100%;
-  height: 100%;
+  height: 50px;
+  margin-top: 20px;
 }
 
 .SplitPane-left {

@@ -15,6 +15,7 @@ import multipleHoles from './multipleHoles'
 export default class Layout extends React.Component {
 
   render() {
+    console.log(multipleHoles)
     return(
        <div>
         <Clock />
